@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Binary Breeze: Quick Decimals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Binary Breeze: Quick Decimals is a simple web application built with React and TypeScript that converts binary numbers to decimal numbers. It provides a user-friendly interface for entering binary numbers and instantly displays the corresponding decimal value.
 
-## Available Scripts
+Based on the specification by [Florinpop17](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md), the app follows the following constraints:
 
-In the project directory, you can run:
+- Arrays may not be used to contain the binary digits entered by the user.
+- The decimal equivalent of each binary digit must be calculated using a single mathematical function, such as the natural logarithm. You have the freedom to choose the appropriate function for the conversion.
 
-### `npm start`
+## User Stories
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- As a user, I can enter up to 8 binary digits in a single input field.
+- The application validates the input and notifies the user if anything other than a 0 or 1 is entered.
+- The decimal equivalent of the binary number is displayed in a single output field.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Bonus Features
 
-### `npm test`
+- Users have the flexibility to enter a variable number of binary digits, expanding the functionality beyond the initial limit of 8 digits.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React: JavaScript library for building user interfaces.
+- TypeScript: Superset of JavaScript that adds static typing.
+- Material-UI (MUI): React UI framework for styling and components.
+- Create React App: Tool for setting up React projects quickly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository: `git clone <repository-url>`.
+2. Navigate to the project root directory.
+3. Install the dependencies: `npm install`.
+4. Start the development server: `npm start`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Enter a binary number in the input field.
+2. The decimal equivalent of the binary number will be displayed in real-time.
+3. To clear the input and output values, click the "Clear and Start Over" button.
